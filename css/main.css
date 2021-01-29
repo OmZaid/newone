@@ -1,0 +1,532 @@
+
+.navbar{
+    background-color: black;
+    border-radius: 0;
+    margin-bottom: 0 !important;
+}
+
+.navbar ul{
+padding: 0px 30px 0px 0px;
+}
+.navbar ul li a{
+    color: white;
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar ul li a .fas{
+    padding-right:5px; 
+    padding-left:5px; 
+}
+.navbar ul li a:hover{
+    color: #15b000;
+}
+.navbar ul li.active > a {
+    color: #15b000;
+    font-weight: bold;
+    font-size: 12px;
+    border-left: 3px solid #15b000;
+    border-radius: 40px;
+}
+.iconStyle{
+    color: #15b000;
+}
+
+/*=====================================Slier============================================*/
+
+
+
+.carousel-caption{
+    margin-top: 0 !important;
+}
+
+.carousel{
+    height: 600px !important;
+}
+
+.carousel-inner>.item>img{
+    width: 100%;
+    height: 600px !important;
+    
+}
+
+.carousel-caption{
+    margin-bottom: 200px;
+
+}
+.carousel-caption h1{
+    
+    font-size: 70px;
+    font-weight: 1000;
+    text-shadow: 3px 3px #15b000;
+    text-transform: uppercase;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+@media screen and (max-width:700px){
+	.carousel-caption{
+    margin-bottom: 100px;
+
+}
+	.carousel-caption h1{
+	font-size: 40px;
+    font-weight: 700;
+    text-shadow: 3px 3px #15b000;
+    text-transform: uppercase;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+}
+.carousel-caption .btn{
+    font-size: large;
+    animation-delay: 1s;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid  #15b000 ;
+    color: white;
+    margin-top: 20px;
+    animation-duration: 2s;
+}
+
+.carousel-caption p{
+    color: #15b000;
+    font-size: 25px;
+    font-weight: 1000;
+    text-shadow: 1px 1px white;
+}
+.carousel-caption .btn:hover{
+    background-color: #15b000;
+    color: white;
+    border: #15b000;
+}
+@keyframes zoom{
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(1.5,1.5);
+    }
+}
+
+.carousel-inner .item>img{
+    animation: zoom 10s
+    ;
+}
+
+.about{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-height: 600px;
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),url(../image/4.jpg);
+    background-size: cover;
+    
+    
+}
+
+.about h1{
+   color:  #15b000 ;
+   font-weight: 1000;
+
+    
+}
+.about hr{
+    width: 150px;
+    height: 7px;
+    background-color: #15b000;
+}
+
+.about .lead{
+   max-width: 700px;
+   margin: 0 auto;
+   color: white;
+   font-weight: 900;
+}
+
+.about .row-about{
+    margin-top: 50px;
+}
+
+.about .row-about img{ 
+    
+    transition: all 2s;
+    border-radius: 15px;
+}
+
+.about .row-about img:hover{ 
+    transform: rotate(360deg);
+    opacity: 0.8;
+}
+
+.about .row-about p{ 
+   text-align: justify;
+   margin-bottom: 25px;
+   background-color: #eee ;
+   color:  #15b000;
+   font-size: large;
+   padding: 20px 30px ;
+   border-radius: 25px ;
+   
+}
+.about .row-about .btn{
+    background-color:   #15b000;
+    border:   #15b000;
+    font-size: 18px;
+}
+
+#services .container h1{
+
+    color: #15b000;
+
+    font-size: 40px;
+   
+
+}
+#services .container p{
+
+    color: black ;
+    font-size: large;
+    font-weight: 1000;
+
+}
+
+#services .vedio h1{
+
+    color: #15b000;
+
+}
+
+.row-project{
+    padding-top: 60px;
+}
+
+.thumbnail img{
+   width: 100%;
+   height: 250px;
+}
+
+.thumbnail .btn{
+    color: white;
+    background-color: #15b000  ;
+    font-size: 18px;
+    border: #15b000;
+ }
+
+ .thumbnail .btn:hover{
+    color: #15b000;
+    background-color: white  ;
+    font-size: 18px;
+    border: 1px solid black;
+ }
+
+ .thumbnail h3{
+    color:  #15b000;
+    
+ }
+ 
+ #portofolio{
+     width: 100%;
+     height: 350px;
+ }
+ #portofolio h1{
+     font-size: 30px;
+    color: #15b000 ;
+     
+ }
+ #portofolio hr{
+     width: 150px;
+     height: 7px;
+     color: #15b000 ;
+     background-color: #15b000 ;
+ }
+ 
+ #portofolio .lead{
+    max-width: 700px;
+    margin: 0 auto;
+    color: #15b000 ;
+    font-size: 20px;
+ }
+
+ #portofolio .row-services{
+   
+     margin-top: 60px;
+ }
+
+ #portofolio.row-services .counter{
+
+    background:  #15b000 ;
+    box-sizing: border-box;
+    
+}
+#portofolio .row-services .counter span{
+
+     font-size: 50px;  
+}
+
+#portofolio .row-services .counter .glyphicon{
+    color: #15b000 ;
+}
+
+#login .container h1{
+
+    color: #15b000;
+
+    font-size: 40px;
+   
+
+}
+#login .container p{
+
+    color: black ;
+    font-size: large;
+    font-weight: 1000;
+
+}
+
+#login .vedio h1{
+
+    color: #15b000;
+
+}
+
+.box {
+    width: 500px;
+    margin: 200px 0;
+}
+
+.shape1{
+    
+    height: 150px;
+    width: 150px;
+    background-color: #15b000 ;
+    border-radius: 80px;
+    float: left;
+    margin-right: -50px;
+}
+.shape2 {
+    
+    height: 150px;
+    width: 150px;
+    background-color: #15b000 ;
+    border-radius: 80px;
+    margin-top: -30px;
+    float: left;
+}
+.shape3 {
+    
+    height: 150px;
+    width: 150px;
+    background-color:  #15b000 ;
+    border-radius: 80px;
+    margin-top: -30px;
+    float: left;
+    margin-left: -31px;
+}
+.shape4 {
+    
+    height: 150px;
+    width: 150px;
+    background-color:  #15b000 ;
+    border-radius: 80px;
+    margin-top: -25px;
+    float: left;
+    margin-left: -32px;
+}
+.shape5 {
+    
+    height: 150px;
+    width: 150px;
+    background-color: #15b000 ;
+    border-radius: 80px;
+    float: left;
+    margin-right: -48px;
+    margin-left: -32px;
+    margin-top: -30px;
+}
+.shape6 {
+    
+    height: 150px;
+    width: 150px;
+    background-color: #15b000 ;
+    border-radius: 80px;
+    float: left;
+    margin-right: -20px;
+    margin-top: -35px;
+}
+.shape7 {
+    height: 150px;
+    width: 150px;
+    background-color: #15b000 ;
+    border-radius: 80px;
+    float: left;
+    margin-right: -20px;
+    margin-top: -57px;
+}
+.float {
+    position: absolute;
+    z-index: 2;
+}
+
+.form {
+    padding-left: 145px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+/*footer*/
+.col_white_amrc {
+     color:#FFF;
+    }
+footer {
+     width:100%;
+      background-color:black;
+       min-height:250px;
+        padding:10px 0px 25px 0px ;
+}
+.pt2 {
+     padding-top:40px ;
+      margin-bottom:20px ;
+    }
+footer p { 
+    font-size:13px; 
+    color:#CCC;
+     padding-bottom:0px;
+      margin-bottom:8px;
+    }
+.mb10 { 
+    padding-bottom:15px ;
+}
+.footer_ul_amrc {
+     margin:0px ; 
+     list-style-type:none ;
+      font-size:14px; 
+      padding:0px 0px 10px 0px ;
+     }
+.footer_ul_amrc li {
+    padding:0px 0px 5px 0px;
+}
+.footer_ul_amrc li a{
+    color:#fff; 
+}
+.footer_ul_amrc li a:hover{
+     color:#fff; 
+     text-decoration:none;
+    }
+.fleft {
+     float:left;
+    }
+.padding-right {
+     padding-right:10px;
+     }
+
+.footer_ul2_amrc {
+    
+    margin:0px;
+     list-style-type:none; 
+     padding:0px;
+    }
+.footer_ul2_amrc li p {
+     display:table;
+     }
+.footer_ul2_amrc li a:hover {
+     text-decoration:none;
+    }
+.footer_ul2_amrc li i {
+     margin-top:5px;
+    }
+
+.bottom_border {
+     border-bottom:1px solid #323f45; 
+     padding-bottom:20px;
+    }
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { 
+    display:inline;
+}
+.foote_bottom_ul_amrc li a {
+    color:#fff; 
+
+      margin:0 12px;
+    }
+
+.social_footer_ul {
+     display:table;
+      margin:15px auto 0 auto;
+       list-style-type:none; 
+     }
+.social_footer_ul li {
+     padding-left:20px;
+      padding-top:10px;
+       float:left;
+    }
+.social_footer_ul li a {
+    color:#fff; 
+    border:1px solid #CCC;
+       padding:8px;
+       border-radius:50%;
+    }
+.social_footer_ul li i { 
+     width:20px;
+      height:20px;
+       text-align:center;
+    }
+
+@media only screen and (max-width:480px)
+{
+    .carousel-caption
+    {
+        padding-bottom: 20px;
+    }
+    .carousel-caption h1
+    {
+        font-size: 20px;
+        font-weight: 1000;
+        text-shadow: 3px 3px #15b000;;
+        text-transform: uppercase;
+        animation-delay: 1s;
+        animation-duration: 2s;
+    }
+    .carousel-caption p
+    {
+        animation-delay: 1s;
+        font-size: 10px;
+    }
+    
+    .carousel-caption .btn
+    {
+        animation-delay: 1s;
+        border-radius: 20px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        margin-top: 5px;
+        animation-duration: 2s;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .footer{
+        width: 100px;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+
+    }
+
+    login{
+        width: 100%;
+        margin-right: 0 ;
+        margin-left: 0;
+    }
+
+   
+}
+
